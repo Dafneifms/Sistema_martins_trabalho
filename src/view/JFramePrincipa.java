@@ -69,6 +69,11 @@ public class JFramePrincipa extends javax.swing.JFrame {
         jMnuDam_Fornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuDam_Fornecedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fornecedor.png"))); // NOI18N
         jMnuDam_Fornecedor.setText("Fonercedor");
+        jMnuDam_Fornecedor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMnuDam_FornecedorActionPerformed(evt);
+            }
+        });
         jMnuDam_Cadastros.add(jMnuDam_Fornecedor);
 
         jMnuDam_Produtos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
@@ -168,6 +173,12 @@ public class JFramePrincipa extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_jMnuDam_SairActionPerformed
+
+    private void jMnuDam_FornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuDam_FornecedorActionPerformed
+        // TODO add your handling code here:
+        JDlgDam_Fornecedor jDlgDam_Fornecedor = new JDlgDam_Fornecedor(null, true);
+        jDlgDam_Fornecedor.setVisible(true);
+    }//GEN-LAST:event_jMnuDam_FornecedorActionPerformed
 
     /**
      * @param args the command line arguments
