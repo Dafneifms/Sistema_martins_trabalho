@@ -150,6 +150,8 @@ public class JFramePrincipa extends javax.swing.JFrame {
 
     private void jMnuDam_ClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuDam_ClientesActionPerformed
         // TODO add your handling code here:
+        JDlgDam_Clientes jDlgDam_Clientes = new JDlgDam_Clientes(null, true);
+        jDlgDam_Clientes.setVisible(true);
     }//GEN-LAST:event_jMnuDam_ClientesActionPerformed
 
     private void jMnuDam_Venda_ProdutosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuDam_Venda_ProdutosActionPerformed
