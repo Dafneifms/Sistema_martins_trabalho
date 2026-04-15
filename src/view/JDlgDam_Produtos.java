@@ -4,6 +4,8 @@
  */
 package view;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author u11051489121
@@ -16,6 +18,51 @@ public class JDlgDam_Produtos extends javax.swing.JDialog {
     public JDlgDam_Produtos(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        setTitle("Cadastro de Usuários.");
+        setLocationRelativeTo(null);
+        
+        jTxtDam_Codigo.setEnabled(false);
+        jTxtDam_Categoria.setEnabled(false);
+        jTxtDam_Nome.setEnabled(false);
+        jTxtDam_Material.setEnabled(false);
+        jTxtDam_Preco.setEnabled(false);
+        jCboDam_Nivel.setEnabled(false);
+        jChbDam_Ativo.setEnabled(false);
+        jBtnDam_Cancelar.setEnabled(false);
+        jBtnDam_Confirmar.setEnabled(false);
+
+    }
+    
+    public void habilitar(){
+        jTxtDam_Codigo.setEnabled(true);
+        jTxtDam_Categoria.setEnabled(true);
+        jTxtDam_Nome.setEnabled(true);
+        jTxtDam_Material.setEnabled(true);
+        jTxtDam_Preco.setEnabled(true);
+        jCboDam_Nivel.setEnabled(true);
+        jChbDam_Ativo.setEnabled(true);
+        jBtnDam_Cancelar.setEnabled(true);
+        jBtnDam_Confirmar.setEnabled(true);
+        jBtnDam_Incluir.setEnabled(false);
+        jBtnDam_Alterar.setEnabled(false);
+        jBtnDam_Excluir.setEnabled(false);
+        jBtnDam_Pesquisar.setEnabled(false);
+    }
+    
+    public void desabilitar(){
+        jTxtDam_Codigo.setEnabled(false);
+        jTxtDam_Categoria.setEnabled(false);
+        jTxtDam_Nome.setEnabled(false);
+        jTxtDam_Material.setEnabled(false);
+        jTxtDam_Preco.setEnabled(false);
+        jCboDam_Nivel.setEnabled(false);
+        jChbDam_Ativo.setEnabled(false);
+        jBtnDam_Cancelar.setEnabled(false);
+        jBtnDam_Confirmar.setEnabled(false);
+        jBtnDam_Incluir.setEnabled(true);
+        jBtnDam_Alterar.setEnabled(true);
+        jBtnDam_Excluir.setEnabled(true);
+        jBtnDam_Pesquisar.setEnabled(true);
     }
 
     /**
@@ -27,21 +74,221 @@ public class JDlgDam_Produtos extends javax.swing.JDialog {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1Dam_Nome = new javax.swing.JLabel();
+        jTxtDam_Nome = new javax.swing.JTextField();
+        jLabel2Dam_Codigo = new javax.swing.JLabel();
+        jTxtDam_Codigo = new javax.swing.JTextField();
+        jLabel3Dam_Categoria = new javax.swing.JLabel();
+        jTxtDam_Categoria = new javax.swing.JTextField();
+        jLabel4Dam_Material = new javax.swing.JLabel();
+        jTxtDam_Material = new javax.swing.JTextField();
+        jLabel5jDam_Preco = new javax.swing.JLabel();
+        jTxtDam_Preco = new javax.swing.JTextField();
+        jLabel6Dam_Nivel = new javax.swing.JLabel();
+        jCboDam_Nivel = new javax.swing.JComboBox<>();
+        jChbDam_Ativo = new javax.swing.JCheckBox();
+        jBtnDam_Incluir = new javax.swing.JButton();
+        jBtnDam_Alterar = new javax.swing.JButton();
+        jBtnDam_Excluir = new javax.swing.JButton();
+        jBtnDam_Confirmar = new javax.swing.JButton();
+        jBtnDam_Cancelar = new javax.swing.JButton();
+        jBtnDam_Pesquisar = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+
+        jLabel1Dam_Nome.setText("Nome");
+
+        jLabel2Dam_Codigo.setText("Código");
+
+        jLabel3Dam_Categoria.setText("Categoria");
+
+        jLabel4Dam_Material.setText("Material");
+
+        jTxtDam_Material.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTxtDam_MaterialActionPerformed(evt);
+            }
+        });
+
+        jLabel5jDam_Preco.setText("Preço");
+
+        jLabel6Dam_Nivel.setText("Nivel");
+
+        jCboDam_Nivel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jChbDam_Ativo.setText("Ativo");
+
+        jBtnDam_Incluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
+        jBtnDam_Incluir.setText("Incluir");
+        jBtnDam_Incluir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnDam_IncluirActionPerformed(evt);
+            }
+        });
+
+        jBtnDam_Alterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
+        jBtnDam_Alterar.setText("Alterar");
+        jBtnDam_Alterar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnDam_AlterarActionPerformed(evt);
+            }
+        });
+
+        jBtnDam_Excluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
+        jBtnDam_Excluir.setText("Excluir");
+        jBtnDam_Excluir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnDam_ExcluirActionPerformed(evt);
+            }
+        });
+
+        jBtnDam_Confirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
+        jBtnDam_Confirmar.setText("Confirmar");
+
+        jBtnDam_Cancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
+        jBtnDam_Cancelar.setText("Cancelar");
+        jBtnDam_Cancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnDam_CancelarActionPerformed(evt);
+            }
+        });
+
+        jBtnDam_Pesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
+        jBtnDam_Pesquisar.setText("Pesquisar");
+        jBtnDam_Pesquisar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnDam_PesquisarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel3Dam_Categoria)
+                        .addGap(101, 101, 101)
+                        .addComponent(jLabel4Dam_Material)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jTxtDam_Categoria, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jTxtDam_Material))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel1Dam_Nome)
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(jTxtDam_Nome))
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel2Dam_Codigo)
+                                    .addComponent(jTxtDam_Codigo, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel5jDam_Preco)
+                                        .addGap(121, 121, 121))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jTxtDam_Preco)
+                                        .addGap(19, 19, 19)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel6Dam_Nivel)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jCboDam_Nivel, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(jChbDam_Ativo)))
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(38, 38, 38))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jBtnDam_Incluir)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jBtnDam_Alterar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jBtnDam_Excluir)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnDam_Confirmar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jBtnDam_Cancelar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jBtnDam_Pesquisar)
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1Dam_Nome)
+                    .addComponent(jLabel2Dam_Codigo))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTxtDam_Nome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtDam_Codigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3Dam_Categoria)
+                    .addComponent(jLabel4Dam_Material))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTxtDam_Categoria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtDam_Material, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5jDam_Preco)
+                    .addComponent(jLabel6Dam_Nivel))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTxtDam_Preco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jCboDam_Nivel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jChbDam_Ativo))
+                .addGap(27, 27, 27)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jBtnDam_Incluir)
+                    .addComponent(jBtnDam_Alterar)
+                    .addComponent(jBtnDam_Excluir)
+                    .addComponent(jBtnDam_Confirmar)
+                    .addComponent(jBtnDam_Cancelar)
+                    .addComponent(jBtnDam_Pesquisar))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jTxtDam_MaterialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtDam_MaterialActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTxtDam_MaterialActionPerformed
+
+    private void jBtnDam_IncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnDam_IncluirActionPerformed
+        // TODO add your handling code here:
+        habilitar();
+    }//GEN-LAST:event_jBtnDam_IncluirActionPerformed
+
+    private void jBtnDam_AlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnDam_AlterarActionPerformed
+        // TODO add your handling code here:
+        habilitar();
+    }//GEN-LAST:event_jBtnDam_AlterarActionPerformed
+
+    private void jBtnDam_ExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnDam_ExcluirActionPerformed
+        // TODO add your handling code here:
+         JOptionPane.showConfirmDialog(null, "Confirma Exclusão?");
+    }//GEN-LAST:event_jBtnDam_ExcluirActionPerformed
+
+    private void jBtnDam_CancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnDam_CancelarActionPerformed
+        // TODO add your handling code here:
+        desabilitar();
+    }//GEN-LAST:event_jBtnDam_CancelarActionPerformed
+
+    private void jBtnDam_PesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnDam_PesquisarActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showInputDialog(null, "Entre com a chave primária:");
+    }//GEN-LAST:event_jBtnDam_PesquisarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -86,5 +333,24 @@ public class JDlgDam_Produtos extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jBtnDam_Alterar;
+    private javax.swing.JButton jBtnDam_Cancelar;
+    private javax.swing.JButton jBtnDam_Confirmar;
+    private javax.swing.JButton jBtnDam_Excluir;
+    private javax.swing.JButton jBtnDam_Incluir;
+    private javax.swing.JButton jBtnDam_Pesquisar;
+    private javax.swing.JComboBox<String> jCboDam_Nivel;
+    private javax.swing.JCheckBox jChbDam_Ativo;
+    private javax.swing.JLabel jLabel1Dam_Nome;
+    private javax.swing.JLabel jLabel2Dam_Codigo;
+    private javax.swing.JLabel jLabel3Dam_Categoria;
+    private javax.swing.JLabel jLabel4Dam_Material;
+    private javax.swing.JLabel jLabel5jDam_Preco;
+    private javax.swing.JLabel jLabel6Dam_Nivel;
+    private javax.swing.JTextField jTxtDam_Categoria;
+    private javax.swing.JTextField jTxtDam_Codigo;
+    private javax.swing.JTextField jTxtDam_Material;
+    private javax.swing.JTextField jTxtDam_Nome;
+    private javax.swing.JTextField jTxtDam_Preco;
     // End of variables declaration//GEN-END:variables
 }
