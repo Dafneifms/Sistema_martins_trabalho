@@ -26,60 +26,63 @@
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel4Dam_Email" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="231" max="-2" attributes="0"/>
+                      <Component id="jLabel3Dam_CPF" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel5Dam_Telefone" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="jTxtDam_Telefone" min="-2" pref="172" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel6Dam_DataAdmissao" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFmtDam_DataAdmissao" min="-2" pref="119" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
                   <Component id="jChbDam_Ativo" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                       <Component id="jBtnDam_Incluir" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jBtnDam_Alterar" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Component id="jBtnDam_Excluir" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jBtnDam_Confirmar" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jTxtDam_Nome" alignment="0" min="-2" pref="233" max="-2" attributes="0"/>
-                          <Component id="jLabel1Dam_Nome" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel2Dam_Codigo" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTxtDam_Codigo" min="-2" pref="99" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
                   <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel3Dam_CPF" min="-2" max="-2" attributes="0"/>
-                              <Component id="jFmtDam_CPF" min="-2" pref="130" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel4Dam_Email" min="-2" max="-2" attributes="0"/>
-                              <Component id="jTxtDam_Email" min="-2" pref="253" max="-2" attributes="0"/>
-                          </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jTxtDam_Email" min="-2" pref="253" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jFmtDam_CPF" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="1" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jTxtDam_Telefone" min="-2" pref="172" max="-2" attributes="0"/>
-                              <Component id="jLabel5Dam_Telefone" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1Dam_Nome" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTxtDam_Nome" min="-2" pref="244" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel6Dam_DataAdmissao" min="-2" max="-2" attributes="0"/>
-                              <Component id="jFmtDam_DataAdmissao" min="-2" pref="172" max="-2" attributes="0"/>
+                              <Component id="jLabel2Dam_Codigo" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTxtDam_Codigo" min="-2" pref="137" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="25" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
               <Component id="jBtnDam_Cancelar" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
               <Component id="jBtnDam_Pesquisar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -103,10 +106,10 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jFmtDam_CPF" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jTxtDam_Email" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jFmtDam_CPF" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel5Dam_Telefone" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel6Dam_DataAdmissao" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -126,11 +129,11 @@
                   <Component id="jBtnDam_Confirmar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jBtnDam_Cancelar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jBtnDam_Pesquisar" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jBtnDam_Cancelar" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnDam_Pesquisar" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="8" max="32767" attributes="0"/>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>

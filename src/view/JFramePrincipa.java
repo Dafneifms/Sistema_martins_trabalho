@@ -178,7 +178,9 @@ public class JFramePrincipa extends javax.swing.JFrame {
 
     private void jMnuDam_SairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuDam_SairActionPerformed
         // TODO add your handling code here:
-        System.exit(0);
+        //System.exit(0);
+        JDlgDam_sair JDlgDam_sair = new JDlgDam_sair(null, true);
+        JDlgDam_sair.setVisible(true);
     }//GEN-LAST:event_jMnuDam_SairActionPerformed
 
     private void jMnuDam_FornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuDam_FornecedorActionPerformed
