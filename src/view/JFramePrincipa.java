@@ -89,6 +89,11 @@ public class JFramePrincipa extends javax.swing.JFrame {
         jMnuDam_Vendedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuDam_Vendedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/vendedor.png"))); // NOI18N
         jMnuDam_Vendedor.setText("Vendedor");
+        jMnuDam_Vendedor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMnuDam_VendedorActionPerformed(evt);
+            }
+        });
         jMnuDam_Cadastros.add(jMnuDam_Vendedor);
         jMnuDam_Cadastros.add(jSeparator1);
 
@@ -181,6 +186,12 @@ public class JFramePrincipa extends javax.swing.JFrame {
         JDlgDam_Fornecedor jDlgDam_Fornecedor = new JDlgDam_Fornecedor(null, true);
         jDlgDam_Fornecedor.setVisible(true);
     }//GEN-LAST:event_jMnuDam_FornecedorActionPerformed
+
+    private void jMnuDam_VendedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuDam_VendedorActionPerformed
+        // TODO add your handling code here:
+        JDlgDam_Vendedor JDlgDam_Vendedor = new JDlgDam_Vendedor(null, true);
+        JDlgDam_Vendedor.setVisible(true);
+    }//GEN-LAST:event_jMnuDam_VendedorActionPerformed
 
     /**
      * @param args the command line arguments
