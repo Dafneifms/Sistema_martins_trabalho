@@ -16,6 +16,8 @@ public class JDlgDam_Clientes extends javax.swing.JDialog {
     public JDlgDam_Clientes(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        setTitle("Clientes.");
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -27,21 +29,278 @@ public class JDlgDam_Clientes extends javax.swing.JDialog {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1Dam_Codigo = new javax.swing.JLabel();
+        jTxtDam_Codigo = new javax.swing.JTextField();
+        jLabel2Dam_Nome = new javax.swing.JLabel();
+        jTxtDam_Nome = new javax.swing.JTextField();
+        jLabel3Dam_Apelido = new javax.swing.JLabel();
+        jTxtDam_Apelido = new javax.swing.JTextField();
+        jLabel4Dam_CPF = new javax.swing.JLabel();
+        jFmtDam_CPF = new javax.swing.JFormattedTextField();
+        jLabel5Dam_Data = new javax.swing.JLabel();
+        jFmtDam_Data = new javax.swing.JFormattedTextField();
+        jLabel7Dam_Endereço = new javax.swing.JLabel();
+        jTxtDam_Endereço = new javax.swing.JTextField();
+        jLabel8Dam_Numero = new javax.swing.JLabel();
+        jTextField5 = new javax.swing.JTextField();
+        jLabel6Dam_Email = new javax.swing.JLabel();
+        jTxtDam_Email = new javax.swing.JTextField();
+        jLabel9Dam_Telefone = new javax.swing.JLabel();
+        jTxtDam_Telefone = new javax.swing.JTextField();
+        jLabel10Dam_RG = new javax.swing.JLabel();
+        jTxtDam_RG = new javax.swing.JTextField();
+        jLabel11Dam_Cep = new javax.swing.JLabel();
+        jTxtDam_Cep = new javax.swing.JTextField();
+        jTxtDam_Numero = new javax.swing.JTextField();
+        jLabel12Dam_Cidade = new javax.swing.JLabel();
+        jTxtDam_Cidade = new javax.swing.JTextField();
+        jLabel13Dam_Estado = new javax.swing.JLabel();
+        jTxtDam_Estado = new javax.swing.JTextField();
+        jLabel14Dam_Bairro = new javax.swing.JLabel();
+        jTxtDam_Bairro = new javax.swing.JTextField();
+        jChbDam_Ativo = new javax.swing.JCheckBox();
+        jBtnDam_Incluir = new javax.swing.JButton();
+        jBtnDam_Alterar = new javax.swing.JButton();
+        jBtnDam_Excluir = new javax.swing.JButton();
+        jBtnDam_Confirmar = new javax.swing.JButton();
+        jBtnDam_Cancelar = new javax.swing.JButton();
+        jBtnDam_Pesquisar = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+
+        jLabel1Dam_Codigo.setText("Codigo");
+
+        jLabel2Dam_Nome.setText("Nome");
+
+        jLabel3Dam_Apelido.setText("Apelido");
+
+        jLabel4Dam_CPF.setText("CPF");
+
+        jLabel5Dam_Data.setText("Data de Nascimento");
+
+        jLabel7Dam_Endereço.setText("Endereço");
+
+        jLabel8Dam_Numero.setText("Numero");
+
+        jLabel6Dam_Email.setText("E-mail");
+
+        jLabel9Dam_Telefone.setText("Telefone");
+
+        jLabel10Dam_RG.setText("RG");
+
+        jLabel11Dam_Cep.setText("CEP");
+
+        jTxtDam_Cep.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTxtDam_CepActionPerformed(evt);
+            }
+        });
+
+        jLabel12Dam_Cidade.setText("Cidade");
+
+        jLabel13Dam_Estado.setText("Estado");
+
+        jLabel14Dam_Bairro.setText("Bairro");
+
+        jChbDam_Ativo.setText("Ativo");
+
+        jBtnDam_Incluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
+        jBtnDam_Incluir.setText("Incluir");
+
+        jBtnDam_Alterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
+        jBtnDam_Alterar.setText("Alterar");
+
+        jBtnDam_Excluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
+        jBtnDam_Excluir.setText("Excluir");
+
+        jBtnDam_Confirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
+        jBtnDam_Confirmar.setText("Confirmar");
+
+        jBtnDam_Cancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
+        jBtnDam_Cancelar.setText("Cancelar");
+
+        jBtnDam_Pesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
+        jBtnDam_Pesquisar.setText("Pesquisar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel1Dam_Codigo)
+                                    .addComponent(jTxtDam_Codigo, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(21, 21, 21)
+                                        .addComponent(jLabel2Dam_Nome))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
+                                        .addComponent(jTxtDam_Nome, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addComponent(jLabel9Dam_Telefone)
+                                .addGap(92, 92, 92)
+                                .addComponent(jLabel10Dam_RG)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(122, 122, 122)
+                                        .addComponent(jLabel11Dam_Cep))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel8Dam_Numero)
+                                            .addComponent(jTxtDam_Numero, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel12Dam_Cidade)
+                                    .addComponent(jTxtDam_Cidade, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel13Dam_Estado)
+                                    .addComponent(jTxtDam_Estado, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel3Dam_Apelido)
+                                    .addComponent(jTxtDam_Apelido, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel5Dam_Data))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(23, 23, 23)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jFmtDam_CPF)
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(jLabel4Dam_CPF)
+                                                .addGap(0, 0, Short.MAX_VALUE))))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
+                                        .addComponent(jLabel6Dam_Email)
+                                        .addGap(0, 0, Short.MAX_VALUE))))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addComponent(jFmtDam_Data, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jTxtDam_Email)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel7Dam_Endereço)
+                            .addComponent(jTxtDam_Endereço, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(275, 275, 275)
+                                .addComponent(jTxtDam_Cep))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jTxtDam_Telefone, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(jTxtDam_RG, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jLabel14Dam_Bairro)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jTxtDam_Bairro, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(jChbDam_Ativo)))
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(6, 6, 6))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jBtnDam_Incluir)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnDam_Alterar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnDam_Excluir)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnDam_Confirmar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnDam_Cancelar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnDam_Pesquisar)
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1Dam_Codigo)
+                    .addComponent(jLabel2Dam_Nome))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTxtDam_Codigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtDam_Nome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel3Dam_Apelido)
+                    .addComponent(jLabel4Dam_CPF))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTxtDam_Apelido, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jFmtDam_CPF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5Dam_Data)
+                    .addComponent(jLabel6Dam_Email))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jFmtDam_Data, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtDam_Email, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel7Dam_Endereço)
+                    .addComponent(jLabel8Dam_Numero))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTxtDam_Endereço, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtDam_Numero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel9Dam_Telefone)
+                    .addComponent(jLabel10Dam_RG)
+                    .addComponent(jLabel11Dam_Cep))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTxtDam_Telefone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtDam_RG, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtDam_Cep, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel12Dam_Cidade)
+                    .addComponent(jLabel13Dam_Estado))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTxtDam_Cidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtDam_Estado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(jLabel14Dam_Bairro)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTxtDam_Bairro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jChbDam_Ativo))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jBtnDam_Incluir)
+                    .addComponent(jBtnDam_Alterar)
+                    .addComponent(jBtnDam_Excluir)
+                    .addComponent(jBtnDam_Confirmar)
+                    .addComponent(jBtnDam_Cancelar)
+                    .addComponent(jBtnDam_Pesquisar))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jTxtDam_CepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtDam_CepActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTxtDam_CepActionPerformed
 
     /**
      * @param args the command line arguments
@@ -86,5 +345,41 @@ public class JDlgDam_Clientes extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jBtnDam_Alterar;
+    private javax.swing.JButton jBtnDam_Cancelar;
+    private javax.swing.JButton jBtnDam_Confirmar;
+    private javax.swing.JButton jBtnDam_Excluir;
+    private javax.swing.JButton jBtnDam_Incluir;
+    private javax.swing.JButton jBtnDam_Pesquisar;
+    private javax.swing.JCheckBox jChbDam_Ativo;
+    private javax.swing.JFormattedTextField jFmtDam_CPF;
+    private javax.swing.JFormattedTextField jFmtDam_Data;
+    private javax.swing.JLabel jLabel10Dam_RG;
+    private javax.swing.JLabel jLabel11Dam_Cep;
+    private javax.swing.JLabel jLabel12Dam_Cidade;
+    private javax.swing.JLabel jLabel13Dam_Estado;
+    private javax.swing.JLabel jLabel14Dam_Bairro;
+    private javax.swing.JLabel jLabel1Dam_Codigo;
+    private javax.swing.JLabel jLabel2Dam_Nome;
+    private javax.swing.JLabel jLabel3Dam_Apelido;
+    private javax.swing.JLabel jLabel4Dam_CPF;
+    private javax.swing.JLabel jLabel5Dam_Data;
+    private javax.swing.JLabel jLabel6Dam_Email;
+    private javax.swing.JLabel jLabel7Dam_Endereço;
+    private javax.swing.JLabel jLabel8Dam_Numero;
+    private javax.swing.JLabel jLabel9Dam_Telefone;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTxtDam_Apelido;
+    private javax.swing.JTextField jTxtDam_Bairro;
+    private javax.swing.JTextField jTxtDam_Cep;
+    private javax.swing.JTextField jTxtDam_Cidade;
+    private javax.swing.JTextField jTxtDam_Codigo;
+    private javax.swing.JTextField jTxtDam_Email;
+    private javax.swing.JTextField jTxtDam_Endereço;
+    private javax.swing.JTextField jTxtDam_Estado;
+    private javax.swing.JTextField jTxtDam_Nome;
+    private javax.swing.JTextField jTxtDam_Numero;
+    private javax.swing.JTextField jTxtDam_RG;
+    private javax.swing.JTextField jTxtDam_Telefone;
     // End of variables declaration//GEN-END:variables
 }

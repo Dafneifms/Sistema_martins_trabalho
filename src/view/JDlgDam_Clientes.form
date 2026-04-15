@@ -23,13 +23,383 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel1Dam_Codigo" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtDam_Codigo" min="-2" pref="92" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                      <Component id="jLabel2Dam_Nome" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jTxtDam_Nome" min="-2" pref="264" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel9Dam_Telefone" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                              <Component id="jLabel10Dam_RG" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+                                      <Component id="jLabel11Dam_Cep" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jTextField5" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel8Dam_Numero" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTxtDam_Numero" min="-2" pref="92" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel12Dam_Cidade" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtDam_Cidade" min="-2" pref="182" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel13Dam_Estado" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtDam_Estado" min="-2" pref="235" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3Dam_Apelido" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtDam_Apelido" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                  <Component id="jLabel5Dam_Data" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jFmtDam_CPF" max="32767" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Component id="jLabel4Dam_CPF" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="jLabel6Dam_Email" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jFmtDam_Data" min="-2" pref="130" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jTxtDam_Email" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel7Dam_Endereço" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTxtDam_Endereço" alignment="0" min="-2" pref="315" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="275" max="-2" attributes="0"/>
+                              <Component id="jTxtDam_Cep" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jTxtDam_Telefone" min="-2" pref="122" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jTxtDam_RG" min="-2" pref="126" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel14Dam_Bairro" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jTxtDam_Bairro" min="-2" pref="270" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jChbDam_Ativo" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jBtnDam_Incluir" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jBtnDam_Alterar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jBtnDam_Excluir" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jBtnDam_Confirmar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jBtnDam_Cancelar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jBtnDam_Pesquisar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1Dam_Codigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2Dam_Nome" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jTxtDam_Codigo" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtDam_Nome" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel3Dam_Apelido" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4Dam_CPF" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtDam_Apelido" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jFmtDam_CPF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5Dam_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6Dam_Email" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jFmtDam_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtDam_Email" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel7Dam_Endereço" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8Dam_Numero" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtDam_Endereço" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtDam_Numero" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel9Dam_Telefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel10Dam_RG" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel11Dam_Cep" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtDam_Telefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtDam_RG" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtDam_Cep" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel12Dam_Cidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel13Dam_Estado" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtDam_Cidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtDam_Estado" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jLabel14Dam_Bairro" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtDam_Bairro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jChbDam_Ativo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jBtnDam_Incluir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnDam_Alterar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnDam_Excluir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnDam_Confirmar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnDam_Cancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnDam_Pesquisar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
   </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1Dam_Codigo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codigo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Codigo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2Dam_Nome">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Nome">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3Dam_Apelido">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apelido"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Apelido">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4Dam_CPF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CPF"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFmtDam_CPF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5Dam_Data">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data de Nascimento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFmtDam_Data">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7Dam_Endere&#xe7;o">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Endere&#xe7;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Endere&#xe7;o">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8Dam_Numero">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numero"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6Dam_Email">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-mail"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Email">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9Dam_Telefone">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telefone"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Telefone">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10Dam_RG">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RG"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_RG">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11Dam_Cep">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CEP"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Cep">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtDam_CepActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Numero">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12Dam_Cidade">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cidade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Cidade">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13Dam_Estado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Estado">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14Dam_Bairro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bairro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDam_Bairro">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jChbDam_Ativo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ativo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnDam_Incluir">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/incluir.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Incluir"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnDam_Alterar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/alterar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Alterar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnDam_Excluir">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/Excluir.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Excluir"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnDam_Confirmar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/gravar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Confirmar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnDam_Cancelar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/cancelar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnDam_Pesquisar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/pesquisar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Pesquisar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
 </Form>
